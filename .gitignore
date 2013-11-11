@@ -1,5 +1,5 @@
 # Unity3D .gitignore file.
-# Store this file at the root of your local repository.
+#	 Store this file at the root of your local repository.
 .DS_Store
 Library/AssetImportState
 Library/AssetServerCacheV3
@@ -13,3 +13,5 @@ Library/metadata
 Library/previews
 Library/guidmapper
 Temp
+*.pidb
+build
