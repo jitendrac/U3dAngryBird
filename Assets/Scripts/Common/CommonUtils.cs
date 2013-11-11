@@ -1,15 +1,10 @@
-﻿using UnityEngine;
-using System.Collections;
-
-public class CommonUtils : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
+﻿namespace Com.Lfd.Agb.Common{
+	using UnityEngine;
+	using System.Collections;
 	
-	}
+	public class CommonUtils : MonoBehaviour {
 	
-	// Update is called once per frame
-	void Update () {
-	
+		
+		
 	}
 }
