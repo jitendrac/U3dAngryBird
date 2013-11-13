@@ -5,6 +5,7 @@ public class Beginning : MonoBehaviour {
 	
 	private Texture2D tt_splash_01 = null;//first splash image
 	private Texture2D tt_splash_02 = null;//secound splash image
+	private Texture2D tt_buttons_mainmenu = null;// a texture atlas of the main menu button
 	private float time_wait_splashping_01 = 2.0f;//the least wait time of secound splash image 
 	private float time_wait_splashping_02 = 5.0f;//the least wait time of secound splash image 
 	private bool isResLoadAllOK = false;//to determine whether the resources loading are complete
@@ -39,9 +40,8 @@ public class Beginning : MonoBehaviour {
 				isShowMainMenu = true;
 				tt_splash_02 = null;
 				CommonUtils.ResTTSplash02 = null;
-				
 			}
-		}		
+		}
 	}
 	
 	
@@ -56,7 +56,8 @@ public class Beginning : MonoBehaviour {
 	
 	//load game resources;
 	IEnumerator loadMainMenuResources(){
-		yield return 0;
+		tt_buttons_mainmenu = CommonUtils.ResTTButtons01;
+		yield return tt_buttons_mainmenu;
 		isResLoadAllOK = true;
 	}
 		
