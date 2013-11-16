@@ -4,10 +4,17 @@
 	
 	public class CommonCfg : MonoBehaviour {
 		
+		public const string KEY_ISOPEN_AUDIO = "isopenaudio";
+		public const int VALUE_OPEN_AUDIO = 0;
+		public const int VALUE_CLOSE_AUDIO = 1;
+		
 		private static GUIStyle _gusty_button_startgame = null;
 		private static GUIStyle _gusty_button_exit = null;
 		private static GUIStyle _gusty_button_config = null;
 		private static GUIStyle _gusty_button_share = null;
+		private static GUIStyle _gusty_button_bgnone = null;
+		private static GUIStyle _gusty_selectiongrid_config = null;
+		private static GUIStyle _gusty_selectiongrid_share = null;
 
 		//start game butto hover texture position in the buttons texture
 		public static Rect RECT_TT_BUTTON_STARTGAME_BIG = new Rect(1,1,447,279);
@@ -27,6 +34,17 @@
 		//share button texture inner
 		public static readonly Rect RECT_TT_BUTTON_SHARE_INNER = new Rect(446,252,52,36);
 		
+		//audio texture rect
+		public static  readonly Rect RECT_TT_BUTTON_CONFIG_SUB_AUDIO = new Rect(580,708,66,70);
+		//ban texture rect
+		public static  readonly Rect RECT_TT_BUTTON_CONFIG_SUB_AUDIO_BAN = new Rect(860,624,58,64);
+		// info texture rect
+		public static  readonly Rect RECT_TT_BUTTON_CONFIG_SUB_INFO = new Rect(922,514,66,70);
+		
+		public static readonly Rect RECT_TT_BUTTON_SHARE_SUB_FACEBOOK = new Rect(658,620,70,74);
+		public static readonly Rect RECT_TT_BUTTON_SHARE_SUB_TWITTER = new Rect(726,620,70,74);
+		public static readonly Rect RECT_TT_BUTTON_SHARE_SUB_VIDEO = new Rect(792,620,70,74);
+		
 		//start game button style
 		public static GUIStyle GUSTY_BUTTON_STARTGAME{
 			get{
@@ -37,6 +55,7 @@
 				_gusty_button_startgame.normal.background = CommonUtils.GetTTButtonStartLit();
 				_gusty_button_startgame.hover.background = CommonUtils.GetTTButtonStartBig();
 				_gusty_button_startgame.onNormal.background = CommonUtils.GetTTButtonStartLit();
+
 				return _gusty_button_startgame;
 			}
 		}
@@ -55,6 +74,7 @@
 				_gusty_button_exit.hover.background = transTex;
 				_gusty_button_exit.onNormal.background = transTex;
 				_gusty_button_exit.onHover.background = transTex;
+				
 				return _gusty_button_exit;
 			}
 		}
@@ -82,6 +102,42 @@
 				}
 				_gusty_button_share = new GUIStyle(GUSTY_BUTTON_CONFIG);
 				return _gusty_button_share;
+			}
+		}
+		
+		public static GUIStyle GUISTY_BUTTON_BGNONE{
+			get{
+				if(_gusty_button_bgnone != null){
+					return _gusty_button_bgnone;
+				}
+				_gusty_button_bgnone = new GUIStyle();
+				_gusty_button_bgnone.normal.background = null;
+				_gusty_button_bgnone.onNormal.background = null;
+				_gusty_button_bgnone.active.background = null;
+				_gusty_button_bgnone.onActive.background = null;
+				return _gusty_button_bgnone;
+			}
+		}
+		
+		public static GUIStyle GUISTY_SELECTEIONGRID_CONFIG{
+			get{
+				if(_gusty_selectiongrid_config != null){
+					return _gusty_selectiongrid_config;
+				}
+				_gusty_selectiongrid_config = new GUIStyle();
+				_gusty_selectiongrid_config.margin = new RectOffset(0,0,0,0);
+				_gusty_selectiongrid_config.alignment = TextAnchor.MiddleCenter;
+				return _gusty_selectiongrid_config;
+			}
+		}
+		
+		public static GUIStyle GUISTY_SELECTIONGRID_SHARE{
+			get{
+				if(_gusty_selectiongrid_share != null){
+					return _gusty_selectiongrid_share;
+				}
+				_gusty_selectiongrid_share = new GUIStyle(GUISTY_SELECTEIONGRID_CONFIG);
+				return _gusty_selectiongrid_share;
 			}
 		}
 	}

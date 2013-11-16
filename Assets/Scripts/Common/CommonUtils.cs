@@ -17,10 +17,19 @@
 		private static Texture2D _res_sub_tt_button_start_lit = null;
 		private static Texture2D _res_sub_tt_button_exit = null;
 		private static Dictionary<string,Texture2D> transparentTextures = null;
+		private static Texture2D _transparentLightGreyTexture = null;
 		
 		private static Texture2D _res_sub_tt_button_config_inner;
 		private static Texture2D _res_sub_tt_button_share_inner;
 		private static Texture2D _res_sub_tt_button_outer;
+		
+		private static Texture2D _res_sub_tt_button_config_sub_info;
+		private static Texture2D _res_sub_tt_button_config_sub_audio;
+		private static Texture2D _res_sub_tt_button_config_sub_audio_ban;
+		
+		private static Texture2D _res_sub_tt_button_share_sub_video;
+		private static Texture2D _res_sub_tt_button_share_sub_facebook;
+		private static Texture2D _res_sub_tt_button_share_sub_twitter;
 		
 		//splash 02 texture
 		public static Texture2D ResTTSplash01{
@@ -76,6 +85,22 @@
 		
 		public static Rect RectInRectMiddlePosition(Rect outer,int width,int height){
 			return new Rect(outer.x+(outer.width-width)/2,outer.y+(outer.height-height)/2,width,height);
+		}
+		
+		public static Texture2D CreateTransparentLightGreyTexture(){
+			if(_transparentLightGreyTexture != null){
+				return _transparentLightGreyTexture;
+			}
+			Texture2D t2d = new Texture2D(5,5);
+			Color tc = new Color(0.5f,0.5f,0.5f,0.3f);
+			Color[] colors = new Color[25];
+			for(int i = 0;i<t2d.width*t2d.height;i++){
+				colors[i] = tc;
+			}
+			t2d.SetPixels(colors);
+			t2d.Apply();
+			_transparentLightGreyTexture = t2d;
+			return _transparentLightGreyTexture;
 		}
 		
 		public static Texture2D CreateTransparentTexture(int width,int height){
@@ -280,5 +305,52 @@
 			return _res_sub_tt_button_outer;
 		}
 		
+		public static Texture2D GetTTButtonConfigSubInfo(){
+			if(_res_sub_tt_button_config_sub_info!=null){
+				return _res_sub_tt_button_config_sub_info;
+			}
+			_res_sub_tt_button_config_sub_info = GetSubTexture(CommonCfg.RECT_TT_BUTTON_CONFIG_SUB_INFO,CommonUtils.ResTTButtons01);
+			return _res_sub_tt_button_config_sub_info;
+		}
+		
+		public static Texture2D GetTTButtonConfigSubAudio(){
+			if(_res_sub_tt_button_config_sub_audio!=null){
+				return _res_sub_tt_button_config_sub_audio;
+			}
+			_res_sub_tt_button_config_sub_audio = GetSubTexture(CommonCfg.RECT_TT_BUTTON_CONFIG_SUB_AUDIO,CommonUtils.ResTTButtons01);
+			return _res_sub_tt_button_config_sub_audio;
+		}
+		
+		public static Texture2D GetTTButtonConfigSubAudioBan(){
+			if(_res_sub_tt_button_config_sub_audio_ban != null){
+				return _res_sub_tt_button_config_sub_audio_ban;	
+			}
+			_res_sub_tt_button_config_sub_audio_ban = GetSubTexture(CommonCfg.RECT_TT_BUTTON_CONFIG_SUB_AUDIO_BAN,CommonUtils.ResTTButtons01);
+			return _res_sub_tt_button_config_sub_audio_ban;
+		}
+		
+		public static Texture2D GetTTButtonShareSubVideo(){
+			if(_res_sub_tt_button_share_sub_video != null){
+				return _res_sub_tt_button_share_sub_video;
+			}
+			_res_sub_tt_button_share_sub_video = GetSubTexture(CommonCfg.RECT_TT_BUTTON_SHARE_SUB_VIDEO,CommonUtils.ResTTButtons01);
+			return _res_sub_tt_button_share_sub_video;
+		}
+		
+		public static Texture2D GetTTButtonShareSubFacebook(){
+			if(_res_sub_tt_button_share_sub_facebook != null){
+				return _res_sub_tt_button_share_sub_facebook;
+			}
+			_res_sub_tt_button_share_sub_facebook = GetSubTexture(CommonCfg.RECT_TT_BUTTON_SHARE_SUB_FACEBOOK,CommonUtils.ResTTButtons01);
+			return _res_sub_tt_button_share_sub_facebook;
+		}
+		
+		public static Texture2D GetTTButtonShareSubTwitter(){
+			if(_res_sub_tt_button_share_sub_twitter != null){
+				return _res_sub_tt_button_share_sub_twitter;
+			}
+			_res_sub_tt_button_share_sub_twitter = GetSubTexture(CommonCfg.RECT_TT_BUTTON_SHARE_SUB_TWITTER,CommonUtils.ResTTButtons01);
+			return _res_sub_tt_button_share_sub_twitter;
+		}
 	}
 }
