@@ -4,6 +4,8 @@ using Com.Lfd.Agb.Common;
 
 public class InitMainMenu : MonoBehaviour {
 	
+	public static bool isEnableGUI = true;
+	
 	private AudioSource audioSource;
 	private bool isPlayingSound = false;
 	
@@ -50,6 +52,7 @@ public class InitMainMenu : MonoBehaviour {
 	
 	private float distanceStepMoveConfigSelectionGrid;
 	private float distanceStepMoveShareSelectionGrid;
+
 	
 	// Use this for initialization
 	void Start () {
@@ -81,7 +84,6 @@ public class InitMainMenu : MonoBehaviour {
 			rectButtonShareSubSg.height+rectButtonShareVideo.height+20,CommonUtils.GetTTButtonShareSubFacebook().width,CommonUtils.GetTTButtonShareSubFacebook().height);
 		rectButtonShareTwitter = new Rect((rectButtonShareSubSg.width-CommonUtils.GetTTButtonShareSubTwitter().width)/2,
 			rectButtonConfigSubSg.height+rectButtonShareVideo.height+rectButtonShareFacebook.height+30,CommonUtils.GetTTButtonShareSubTwitter().width,CommonUtils.GetTTButtonShareSubTwitter().height);
-		
 	}
 	
 	// Update is called once per frame
@@ -90,12 +92,12 @@ public class InitMainMenu : MonoBehaviour {
 	}
 	
 	void OnGUI(){
+		GUI.enabled = isEnableGUI;
+		GUI.depth = 1;
 		DrawBottomButtons();
 	}
 	
 	void DrawBottomButtons(){
-				//set the button depth 
-		GUI.depth = -1;
 		GUIContent gcExitButton = new GUIContent("","exitbutton");
 		if(GUI.Button(rectButtonStartGame,"",CommonCfg.GUSTY_BUTTON_STARTGAME)){
 			print ("you click the start game button");
@@ -114,10 +116,8 @@ public class InitMainMenu : MonoBehaviour {
 			clickCount_share++;
 		}
 		
-		//set the textures which are front of the button
-		GUI.depth = 0;
 		//if the mouse is hover the exit button
-		if(gcExitButton.tooltip == GUI.tooltip){
+		if(gcExitButton.tooltip == GUI.tooltip&&!ShowGameAbout.isOpenGameInfoPanel){
 			//scale the texture
 			Rect nrect  = CommonUtils.RectResizeAndMiddle(rectButtonExit,4);
 			GUI.DrawTexture(nrect,CommonUtils.GetTTButtonExit(),ScaleMode.ScaleToFit,true);	
@@ -157,7 +157,6 @@ public class InitMainMenu : MonoBehaviour {
 		
 		GUI.BeginGroup(rectButtonConfigSubSg);
 		GUIContent gcConfigAudioButton = new GUIContent("","buttonconfigaudio");
-		GUI.depth = -1;
 		bool isAudio = true;
 		if(PlayerPrefs.HasKey(CommonCfg.KEY_ISOPEN_AUDIO)){
 			int v = PlayerPrefs.GetInt(CommonCfg.KEY_ISOPEN_AUDIO);
@@ -181,9 +180,9 @@ public class InitMainMenu : MonoBehaviour {
 		GUIContent gcConfigInfoButton = new GUIContent("","buttonconfiginfo");
 		if(GUI.Button(rectButtonConfigInfo,gcConfigInfoButton,CommonCfg.GUISTY_BUTTON_BGNONE)){
 			print("you click info");
+			ShowGameAbout.isOpenGameInfoPanel = true;
 		}
-		GUI.depth = 0;
-		if(GUI.tooltip == gcConfigAudioButton.tooltip){
+		if(GUI.tooltip == gcConfigAudioButton.tooltip&&!ShowGameAbout.isOpenGameInfoPanel){
 			Rect nrect = CommonUtils.RectResizeAndMiddle(rectButtonConfigAudio,2);
 			GUI.DrawTexture(nrect,CommonUtils.GetTTButtonConfigSubAudio(),ScaleMode.ScaleToFit,true);
 			if(!isAudio){
@@ -195,7 +194,7 @@ public class InitMainMenu : MonoBehaviour {
 				GUI.DrawTexture(rectButtonConfigAudio,CommonUtils.GetTTButtonConfigSubAudioBan(),ScaleMode.ScaleToFit,true);
 			}
 		}
-		if(GUI.tooltip == gcConfigInfoButton.tooltip){
+		if(GUI.tooltip == gcConfigInfoButton.tooltip&&!ShowGameAbout.isOpenGameInfoPanel){
 			Rect nrect = CommonUtils.RectResizeAndMiddle(rectButtonConfigInfo,2);
 			GUI.DrawTexture(nrect,CommonUtils.GetTTButtonConfigSubInfo(),ScaleMode.ScaleToFit,true);
 		}else{
@@ -205,7 +204,7 @@ public class InitMainMenu : MonoBehaviour {
 		
 		
 		//if the mouse is hover the config button
-		if(gcConfigButton.tooltip == GUI.tooltip){
+		if(gcConfigButton.tooltip == GUI.tooltip&&!ShowGameAbout.isOpenGameInfoPanel){
 			Rect nrect = CommonUtils.RectResizeAndMiddle(rectButtonConfig,4);
 			rectButtonConfigInnerNow = CommonUtils.RectResizeAndMiddle(rectButtonConfigInner,4);
 			GUI.DrawTexture(nrect,CommonUtils.GetTTButtonOuter(),ScaleMode.ScaleToFit,true);
@@ -267,19 +266,19 @@ public class InitMainMenu : MonoBehaviour {
 		if(GUI.Button(rectButtonShareTwitter,gcShareTwitterButton,CommonCfg.GUISTY_BUTTON_BGNONE)){
 			print("you click share twitter button");
 		}
-		if(GUI.tooltip == gcShareVideoButton.tooltip){
+		if(GUI.tooltip == gcShareVideoButton.tooltip&&!ShowGameAbout.isOpenGameInfoPanel){
 			Rect nrect = CommonUtils.RectResizeAndMiddle(rectButtonShareVideo,2);
 			GUI.DrawTexture(nrect,CommonUtils.GetTTButtonShareSubVideo(),ScaleMode.ScaleToFit);
 		}else{
 			GUI.DrawTexture(rectButtonShareVideo,CommonUtils.GetTTButtonShareSubVideo(),ScaleMode.ScaleToFit);
 		}
-		if(GUI.tooltip == gcShareFacebookButton.tooltip){
+		if(GUI.tooltip == gcShareFacebookButton.tooltip&&!ShowGameAbout.isOpenGameInfoPanel){
 			Rect nrect = CommonUtils.RectResizeAndMiddle(rectButtonShareFacebook,2);
 			GUI.DrawTexture(nrect,CommonUtils.GetTTButtonShareSubFacebook(),ScaleMode.ScaleToFit);
 		}else{
 			GUI.DrawTexture(rectButtonShareFacebook,CommonUtils.GetTTButtonShareSubFacebook(),ScaleMode.ScaleToFit);
 		}
-		if(GUI.tooltip == gcShareTwitterButton.tooltip){
+		if(GUI.tooltip == gcShareTwitterButton.tooltip&&!ShowGameAbout.isOpenGameInfoPanel){
 			Rect nrect = CommonUtils.RectResizeAndMiddle(rectButtonShareTwitter,2);
 			GUI.DrawTexture(nrect,CommonUtils.GetTTButtonShareSubTwitter(),ScaleMode.ScaleToFit);
 		}else{
@@ -288,7 +287,7 @@ public class InitMainMenu : MonoBehaviour {
 		GUI.EndGroup();
 		
 		//if mouse hover the share button change the texture size
-		if(gcShareButton.tooltip == GUI.tooltip){
+		if(gcShareButton.tooltip == GUI.tooltip&&!ShowGameAbout.isOpenGameInfoPanel){
 			Rect nrect = CommonUtils.RectResizeAndMiddle(rectButtonShare,4);
 			rectButtonShareInnerNow = CommonUtils.RectResizeAndMiddle(rectButtonShareInner,4);
 			GUI.DrawTexture(nrect,CommonUtils.GetTTButtonOuter(),ScaleMode.ScaleToFit,true);

@@ -1,10 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MainMenu\InitMainMenu.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MainMenu\ShowGameAbout.cs">
     <Files>
-      <File FileName="Assets\Scripts\Common\CommonUtils.cs" Line="352" Column="40" />
-      <File FileName="Assets\Scripts\MainMenu\InitMainMenu.cs" Line="169" Column="23" />
-      <File FileName="Assets\Scripts\Common\CommonCfg.cs" Line="46" Column="60" />
+      <File FileName="Assets\Scripts\MainMenu\InitMainMenu.cs" Line="19" Column="38" />
+      <File FileName="Assets\Scripts\Common\CommonUtils.cs" Line="416" Column="56" />
+      <File FileName="Assets\Scripts\Common\CommonCfg.cs" Line="32" Column="86" />
+      <File FileName="Assets\Scripts\MainMenu\ShowGameAbout.cs" Line="69" Column="55" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

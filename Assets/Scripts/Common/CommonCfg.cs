@@ -15,35 +15,24 @@
 		private static GUIStyle _gusty_button_bgnone = null;
 		private static GUIStyle _gusty_selectiongrid_config = null;
 		private static GUIStyle _gusty_selectiongrid_share = null;
+		private static GUIStyle _gusty_popup_gamemakeinfo_left = null;
 
-		//start game butto hover texture position in the buttons texture
-		public static Rect RECT_TT_BUTTON_STARTGAME_BIG = new Rect(1,1,447,279);
-		
-		//start game button normal texture position in the buttons texture
+		public static readonly Rect RECT_TT_BUTTON_STARTGAME_BIG = new Rect(1,1,447,279);
 		public static readonly Rect RECT_TT_BUTTON_STARTGAME_LIT = new Rect(260,298,310,210);
-		
-		//exit button  texture position in the buttons texture
 		public static readonly Rect RECT_TT_BUTTON_EXIT = new Rect(254,628,100,106);
-		
-		//config button texutre position
 		public static readonly Rect RECT_TT_BUTTON_OUTER = new Rect(686,282,106,126);
-		
-		//config button texture position
 		public static readonly Rect RECT_TT_BUTTON_CONFIG_INNER = new Rect(462,896,70,68);
-		
-		//share button texture inner
 		public static readonly Rect RECT_TT_BUTTON_SHARE_INNER = new Rect(446,252,52,36);
-		
-		//audio texture rect
-		public static  readonly Rect RECT_TT_BUTTON_CONFIG_SUB_AUDIO = new Rect(580,708,66,70);
-		//ban texture rect
-		public static  readonly Rect RECT_TT_BUTTON_CONFIG_SUB_AUDIO_BAN = new Rect(860,624,58,64);
-		// info texture rect
-		public static  readonly Rect RECT_TT_BUTTON_CONFIG_SUB_INFO = new Rect(922,514,66,70);
-		
+		public static readonly Rect RECT_TT_BUTTON_CONFIG_SUB_AUDIO = new Rect(580,708,66,70);
+		public static readonly Rect RECT_TT_BUTTON_CONFIG_SUB_AUDIO_BAN = new Rect(860,624,58,64);
+		public static readonly Rect RECT_TT_BUTTON_CONFIG_SUB_INFO = new Rect(922,514,66,70);
 		public static readonly Rect RECT_TT_BUTTON_SHARE_SUB_FACEBOOK = new Rect(658,620,70,74);
 		public static readonly Rect RECT_TT_BUTTON_SHARE_SUB_TWITTER = new Rect(726,620,70,74);
 		public static readonly Rect RECT_TT_BUTTON_SHARE_SUB_VIDEO = new Rect(792,620,70,74);
+		public static readonly Rect RECT_TT_BUTTON_GAMEINFO_BACK = new Rect(358,844,98,98);
+		
+		public static readonly Rect RECT_TT_POPUP_GAMEMAKEINFO_LEFTBG = new Rect(29,169,13,3);
+		public static readonly Rect RECT_TT_POPUP_GAMEMAKEINFO_RIGHTBG = new Rect(197,213,40,26);
 		
 		//start game button style
 		public static GUIStyle GUSTY_BUTTON_STARTGAME{
@@ -140,5 +129,21 @@
 				return _gusty_selectiongrid_share;
 			}
 		}
+		
+		//----popups
+		public static GUIStyle GUISTY_POPUP_MAKEGAMEINFO_LEFT{
+			get{
+				if(_gusty_popup_gamemakeinfo_left != null){
+					return _gusty_popup_gamemakeinfo_left;
+				}
+				_gusty_popup_gamemakeinfo_left = new GUIStyle();
+				_gusty_popup_gamemakeinfo_left.normal.background = CommonUtils.GetTTPopupGameMakeInfoLeftBg();
+				_gusty_popup_gamemakeinfo_left.onNormal.background = CommonUtils.GetTTPopupGameMakeInfoLeftBg();
+				_gusty_popup_gamemakeinfo_left.active.background = CommonUtils.GetTTPopupGameMakeInfoLeftBg();
+				_gusty_popup_gamemakeinfo_left.border = new RectOffset(1,12,1,1);
+				return _gusty_popup_gamemakeinfo_left;
+			}	
+		}
+		
 	}
 }

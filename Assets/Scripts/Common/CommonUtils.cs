@@ -12,6 +12,7 @@
 		private static Texture2D _res_tt_splash01 = null;
 		private static Texture2D _res_tt_splash02 = null;
 		private static Texture2D _res_tt_buttons01 = null;
+		private static Texture2D _res_tt_popups01 = null;
 		
 		private static Texture2D _res_sub_tt_button_start_big = null;
 		private static Texture2D _res_sub_tt_button_start_lit = null;
@@ -30,6 +31,12 @@
 		private static Texture2D _res_sub_tt_button_share_sub_video;
 		private static Texture2D _res_sub_tt_button_share_sub_facebook;
 		private static Texture2D _res_sub_tt_button_share_sub_twitter;
+		private static Texture2D _res_sub_tt_button_gameinfo_back;
+		
+		//-----------------------popups
+		private static Texture2D _res_sub_tt_popup_gamemakeinfo_leftbg;
+		private static Texture2D _res_sub_tt_popup_gamemakeinfo_rightbg;
+		
 		
 		//splash 02 texture
 		public static Texture2D ResTTSplash01{
@@ -58,6 +65,21 @@
 			}
 			set{
 				_res_tt_splash02 = value;
+			}
+		}
+		
+		//patch 01 texture;
+		public static Texture2D ResTTPopups01{
+			get{
+				if(_res_tt_popups01 != null){
+					return _res_tt_popups01;
+				}
+				Texture2D t2d = Resources.Load("pngs/POPUPS_SHEET_1",typeof(Texture2D)) as Texture2D;
+				_res_tt_popups01 = t2d;
+				return t2d;
+			}
+			set{
+				_res_tt_popups01 = value;
 			}
 		}
 		
@@ -101,6 +123,17 @@
 			t2d.Apply();
 			_transparentLightGreyTexture = t2d;
 			return _transparentLightGreyTexture;
+		}
+		
+		public static Texture2D CreateTextureByColor(Color color){
+			Texture2D t2d = new Texture2D(5,5);
+			Color[] colors = new Color[25];
+			for(int i = 0;i<t2d.width*t2d.height;i++){
+				colors[i] = color;
+			}
+			t2d.SetPixels(colors);
+			t2d.Apply();
+			return t2d;
 		}
 		
 		public static Texture2D CreateTransparentTexture(int width,int height){
@@ -351,6 +384,43 @@
 			}
 			_res_sub_tt_button_share_sub_twitter = GetSubTexture(CommonCfg.RECT_TT_BUTTON_SHARE_SUB_TWITTER,CommonUtils.ResTTButtons01);
 			return _res_sub_tt_button_share_sub_twitter;
+		}
+		
+		public static Texture2D GetTTButtonGameInfoBack(){
+			if(_res_sub_tt_button_gameinfo_back != null){
+				return _res_sub_tt_button_gameinfo_back;
+			}
+			_res_sub_tt_button_gameinfo_back = GetSubTexture(CommonCfg.RECT_TT_BUTTON_GAMEINFO_BACK,CommonUtils.ResTTButtons01);
+			return _res_sub_tt_button_gameinfo_back;
+		}
+		
+		
+		//------------------------popups-----------------------------
+		public static Texture2D GetTTPopupGameMakeInfoLeftBg(){
+			if(_res_sub_tt_popup_gamemakeinfo_leftbg != null){
+				return _res_sub_tt_popup_gamemakeinfo_leftbg;
+			}
+			_res_sub_tt_popup_gamemakeinfo_leftbg = GetSubTexture(CommonCfg.RECT_TT_POPUP_GAMEMAKEINFO_LEFTBG,CommonUtils.ResTTPopups01);
+			return _res_sub_tt_popup_gamemakeinfo_leftbg;
+		}
+		
+		public static Texture2D GetTTPopupGameMakeInfoRightBg(){
+			if(_res_sub_tt_popup_gamemakeinfo_rightbg != null){
+				return _res_sub_tt_popup_gamemakeinfo_rightbg;
+			}
+			_res_sub_tt_popup_gamemakeinfo_rightbg = GetSubTexture(CommonCfg.RECT_TT_POPUP_GAMEMAKEINFO_RIGHTBG,CommonUtils.ResTTPopups01);
+			return _res_sub_tt_popup_gamemakeinfo_rightbg;
+		}
+		
+		public static void DrawTextureBigOrSmall(GUIContent gcontent,Rect rect,Texture2D t2d,int scale){
+			print ("here------"+(GUI.tooltip == gcontent.tooltip));
+			if(gcontent.tooltip == GUI.tooltip){
+				
+				Rect nrect = CommonUtils.RectResizeAndMiddle(rect,scale);
+				GUI.DrawTexture(nrect,t2d,ScaleMode.ScaleToFit);
+			}else{
+				GUI.DrawTexture(rect,t2d,ScaleMode.ScaleToFit);
+			}
 		}
 	}
 }
