@@ -10,14 +10,9 @@ public class SubButtonController : MonoBehaviour {
 	private const string KEY_ISAUDIO = "KEY_ISAUDIO";
 	private Transform transformStopAudioButton;
 	private AudioSource titleThemeAudio;
-	private GameObject goGameInfo;
 	private int clickCount;
-	private float targetPositionVisibleGameInfo = 12;
-	private float targetPositionHideGameInfo = -30;
-	private float distanceStepMoveGameInfo = 10.0f;
 
 	void Start(){
-		print ("??"+PlayerPrefs.GetInt(KEY_ISAUDIO));
 		goname = gameObject.name;
 		scaleOri = transform.localScale;
 		scale2big = new Vector3(scaleOri.x+ScaleValue,scaleOri.y+ScaleValue,scaleOri.z);
@@ -34,24 +29,6 @@ public class SubButtonController : MonoBehaviour {
 				}
 			}else{
 				PlaySound(titleThemeAudio);
-			}
-		}
-		if(goname == "ButtonConfigGameAbout"){
-			goGameInfo = GameObject.FindGameObjectWithTag("GameObjectGameInfo");
-		}
-	}
-
-	void Update(){
-		if(goname == "ButtonConfigGameAbout" && clickCount > 0){
-			if(clickCount%2 == 1 && goGameInfo.transform.position.x < targetPositionVisibleGameInfo){
-				float dix = goGameInfo.transform.position.x+distanceStepMoveGameInfo*Time.deltaTime;
-				dix = dix > targetPositionVisibleGameInfo ? targetPositionVisibleGameInfo : dix;
-				goGameInfo.transform.position = new Vector3(dix,goGameInfo.transform.position.y,goGameInfo.transform.position.z);
-			}
-			if(clickCount%2 == 0 && goGameInfo.transform.position.x > targetPositionHideGameInfo){
-				float dix = goGameInfo.transform.position.x-distanceStepMoveGameInfo*Time.deltaTime;
-				dix = dix < targetPositionHideGameInfo ? targetPositionHideGameInfo : dix;
-				goGameInfo.transform.position = new Vector3(dix,goGameInfo.transform.position.y,goGameInfo.transform.position.z);
 			}
 		}
 	}
@@ -88,6 +65,7 @@ public class SubButtonController : MonoBehaviour {
 		}
 		if(name == "ButtonConfigGameAbout"){
 			clickCount++;
+			ShowGameInfo.isShowBackground = clickCount%2==1;
 		}
 
 	}
