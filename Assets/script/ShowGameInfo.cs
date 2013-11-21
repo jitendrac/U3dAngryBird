@@ -13,15 +13,23 @@ public class ShowGameInfo : MonoBehaviour {
 	public static bool isShowBackground = false;
 
 	private GameObject goGameInfoMessage;
+	private GameObject goPreventClickCollder;
+	private float pxHideGameInfoBgleft = -720;
+	private float pxShowGameInfoBgleft = -400;
 
 	// Use this for initialization
 	void Start () {
 		GTEX_GameInfoLeft.texture = CommonUtils.GetSubTexture(SPR_GameInfoLeftBg.textureRect,SPR_GameInfoLeftBg.texture);
 		GTEX_GameInfoRight.texture = CommonUtils.GetSubTexture(SPR_GameInfoRightBg.textureRect,SPR_GameInfoRightBg.texture);
-		Color tmpColor = GTEX_GameInfoRight.color;
-		tmpColor.a = 0;
-		GTEX_GameInfoRight.color = tmpColor;
 		goGameInfoMessage = GameObject.FindGameObjectWithTag("GameInfoMessage");
+		goPreventClickCollder = GameObject.FindGameObjectWithTag("PreventButtonClickCollider");
+
+//		Rect rectgil = GTEX_GameInfoLeft.pixelInset;
+//		pxHideGameInfoBgleft = -Screen.width/2.0f-Screen.width*0.4f;
+//		pxShowGameInfoBgleft = -Screen.width/2.0f;
+//		rectgil.x = pxHideGameInfoBgleft;
+//		rectgil.width = Screen.width*0.4f;
+
 	}
 	
 	// Update is called once per frame
@@ -30,6 +38,9 @@ public class ShowGameInfo : MonoBehaviour {
 		Vector3 tmpGameInfoPosition = goGameInfoMessage.transform.position;
 		Rect tmpGameInfoLeftBgRect = GTEX_GameInfoLeft.pixelInset;
 		if(isShowBackground){
+			Vector3 tmpv3collider = goPreventClickCollder.transform.position;
+			tmpv3collider.z = -5;
+			goPreventClickCollder.transform.position = tmpv3collider;
 			if(tmpColor.a < 0.7f){
 				float tmpalpha = tmpColor.a + StepAColorChange*Time.deltaTime;
 				tmpalpha = tmpalpha > 0.7f ? 0.7f : tmpalpha;
@@ -42,13 +53,16 @@ public class ShowGameInfo : MonoBehaviour {
 				tmpGameInfoPosition.x = tmpx;
 				goGameInfoMessage.transform.position = tmpGameInfoPosition;
 			}
-			if(tmpGameInfoLeftBgRect.x < -400){
+			if(tmpGameInfoLeftBgRect.x < pxShowGameInfoBgleft){
 				float tmpx = tmpGameInfoLeftBgRect.x + StepPixelXGameInfoLeftBg*Time.deltaTime;
-				tmpx = tmpx > -400 ? -400 : tmpx;
+				tmpx = tmpx > pxShowGameInfoBgleft ? pxShowGameInfoBgleft : tmpx;
 				tmpGameInfoLeftBgRect.x = tmpx;
 				GTEX_GameInfoLeft.pixelInset = tmpGameInfoLeftBgRect;
 			}
 		}else{
+			Vector3 tmpv3collider = goPreventClickCollder.transform.position;
+			tmpv3collider.z = 10;
+			goPreventClickCollder.transform.position = tmpv3collider;
 			if(tmpColor.a > 0){
 				float tmpalpha = tmpColor.a - StepAColorChange*Time.deltaTime;
 				tmpalpha = tmpalpha <0 ? 0 : tmpalpha;
@@ -61,9 +75,9 @@ public class ShowGameInfo : MonoBehaviour {
 				tmpGameInfoPosition.x = tmpx;
 				goGameInfoMessage.transform.position = tmpGameInfoPosition;
 			}
-			if(tmpGameInfoLeftBgRect.x > -720){
+			if(tmpGameInfoLeftBgRect.x > pxHideGameInfoBgleft){
 				float tmpx = tmpGameInfoLeftBgRect.x - StepPixelXGameInfoLeftBg*Time.deltaTime;
-				tmpx = tmpx < -720 ? -720 : tmpx;
+				tmpx = tmpx < pxHideGameInfoBgleft ?pxHideGameInfoBgleft : tmpx;
 				tmpGameInfoLeftBgRect.x = tmpx;
 				GTEX_GameInfoLeft.pixelInset = tmpGameInfoLeftBgRect;
 			}

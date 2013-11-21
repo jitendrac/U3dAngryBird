@@ -64,10 +64,8 @@ public class ScaleButtonController : MonoBehaviour {
 		clickCount = (++clickCount)==2?0:clickCount;
 		if(clickCount == 1 && subTransform != null){
 			barButtonAnimator.SetBool("IsPlay",true);
-			barButtonAnimator.SetBool("IsHidden",false);
 		}
 		if(clickCount == 0 && subTransform != null){
-			barButtonAnimator.SetBool("IsHidden",true);
 			barButtonAnimator.SetBool("IsPlay",false);
 		}
 	}

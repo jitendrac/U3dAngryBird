@@ -32,6 +32,7 @@ public class SubButtonController : MonoBehaviour {
 			}
 		}
 	}
+	
 
 	void OnMouseOver(){
 		gameObject.transform.localScale = scale2big;
@@ -40,7 +41,7 @@ public class SubButtonController : MonoBehaviour {
 	void OnMouseExit(){
 		gameObject.transform.localScale = scaleOri;
 	}
-	
+
 	void OnMouseDown(){
 
 		if(name=="ButtonConfigAudio"){
@@ -66,8 +67,11 @@ public class SubButtonController : MonoBehaviour {
 		if(name == "ButtonConfigGameAbout"){
 			clickCount++;
 			ShowGameInfo.isShowBackground = clickCount%2==1;
+			clickCount--;
 		}
-
+		if(name == "ButtonHideGameInfo"){
+			ShowGameInfo.isShowBackground = false;
+		}
 	}
 
 	void PlaySound(AudioSource source){

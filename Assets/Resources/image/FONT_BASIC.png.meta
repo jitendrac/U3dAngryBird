@@ -1,0 +1,2781 @@
+fileFormatVersion: 2
+guid: 5c73590e19533ad469885a3ffe2b9e8c
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: FONT_BASIC_0
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 453
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_1
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 456
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_2
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 457
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_3
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 483
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_4
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 483
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_5
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 484
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_6
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 483
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_7
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 484
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_8
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 483
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_9
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 483
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_10
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 484
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_11
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 484
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_12
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 483
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_13
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 484
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_14
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 483
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_15
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 484
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_16
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 484
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_17
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 484
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_18
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 453
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_19
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 469
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_20
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 454
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_21
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 454
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_22
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 469
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_23
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 454
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_24
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 454
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_25
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 460
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_26
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 458
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_27
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 457
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_28
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 457
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_29
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 457
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_30
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 457
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_31
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 456
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_32
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 457
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_33
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 456
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_34
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 455
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_35
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 453
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_36
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 453
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_37
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 453
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_38
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 453
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_39
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 453
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_40
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 453
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_41
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 453
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_42
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 453
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_43
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 453
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_44
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 453
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_45
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 453
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_46
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 453
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_47
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 453
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_48
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 453
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_49
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 453
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_50
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 453
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_51
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 453
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_52
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 456
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_54
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 451
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_55
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 453
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_57
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 425
+        width: 50
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_58
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 423
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_59
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 425
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_60
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 426
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_61
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 426
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_62
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 426
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_63
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 426
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_64
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 426
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_65
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 427
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_66
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 426
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_67
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 426
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_68
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 426
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_69
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 426
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_70
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 426
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_71
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 423
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_72
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 424
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_73
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 423
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_74
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 423
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_75
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 424
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_76
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 423
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_77
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 423
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_78
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 423
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_79
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 423
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_80
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 423
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_81
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 424
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_82
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 423
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_83
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 423
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_84
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 423
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_85
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 424
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_87
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 397
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_88
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 396
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_89
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 393
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_90
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 407
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_91
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 394
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_92
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 396
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_93
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 394
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_96
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 397
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_97
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 394
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_98
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 394
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_99
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 393
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_100
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 394
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_101
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 394
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_102
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 393
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_103
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 393
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_104
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 393
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_105
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 393
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_106
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 393
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_107
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 394
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_108
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 394
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_109
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 393
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_110
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 393
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_111
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 393
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_112
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 393
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_113
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 395
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_114
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 396
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_115
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 394
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_116
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 397
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_117
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 363
+        width: 10
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_118
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 362
+        width: 5
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_119
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 360
+        width: 8
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_120
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 386
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_121
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 363
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_122
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 364
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_123
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 364
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_124
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 363
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_125
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 363
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_126
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 363
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_127
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 363
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_128
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 363
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_129
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 364
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_130
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 363
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_131
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 363
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_132
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 363
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_134
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 362
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_136
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 364
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_137
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 363
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_138
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 361
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_139
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 364
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_140
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 366
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_141
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 362
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_142
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 367
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_143
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 334
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_144
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 333
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_145
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 333
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_146
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 333
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_147
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 334
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_148
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 333
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_149
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 334
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_150
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 333
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_151
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 334
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_152
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 333
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_153
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 334
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_154
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 354
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_155
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 334
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_156
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 333
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_157
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 334
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_158
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 333
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_159
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 333
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_160
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 304
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_161
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 303
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_162
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 322
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_163
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 322
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_164
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 303
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_165
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 303
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_166
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 304
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_167
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 303
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_168
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 303
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_169
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 304
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_170
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 303
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_171
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 304
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_172
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 303
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_173
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 303
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_174
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 303
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_175
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 303
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_176
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 303
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_177
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 303
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_183
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 291
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_184
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 276
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_185
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 284
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_186
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 218
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_190
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 189
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_191
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 189
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_192
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 188
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_200
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 158
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_201
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 158
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_202
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 159
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_203
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 159
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_204
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 159
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_205
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 158
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_206
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 158
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_209
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 129
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_211
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 123
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_212
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 124
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_213
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 123
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_214
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 123
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_215
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 124
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_216
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 129
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_217
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 129
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_218
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 124
+        width: 31
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_219
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 132
+        width: 29
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_223
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 94
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_224
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 93
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_225
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 93
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_226
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 94
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_227
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 93
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_228
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 93
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_229
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 93
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_230
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 93
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_231
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 93
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_232
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 93
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_233
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 93
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_234
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 93
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_235
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 92
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_236
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 93
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_237
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 93
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_238
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 95
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_239
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 64
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_240
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 63
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_241
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 63
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_242
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 63
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_243
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 63
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_244
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 63
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_245
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 63
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_246
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 63
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_247
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 64
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_248
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 63
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_249
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 64
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_250
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 63
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_251
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 64
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_252
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 64
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_253
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 63
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_254
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 63
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_257
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 33
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_258
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 33
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_259
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 33
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_260
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 34
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_261
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 34
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_262
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 34
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_263
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 33
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_264
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 34
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_266
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 33
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_267
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 34
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_268
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 33
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_269
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 33
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_270
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 33
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_271
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 34
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_272
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 34
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_273
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 34
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_274
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_275
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 3
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_276
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_277
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 3
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_278
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 3
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_280
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 3
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_281
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 4
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_282
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 3
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_283
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 4
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_284
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 3
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_285
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 4
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_286
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 3
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_287
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 4
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_288
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 3
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_289
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 3
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_290
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 453
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_291
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 453
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_292
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 455
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_293
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 455
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_291
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 426
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_292
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 427
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_293
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 427
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_294
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 424
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_295
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 427
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_296
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 426
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_297
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 425
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_298
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 425
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_299
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 422
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_300
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 394
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_301
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 392
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_302
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 395
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_303
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 392
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_304
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 393
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_305
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 392
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_306
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 394
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_307
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 390
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_308
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 393
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_309
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 393
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_310
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 393
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_311
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 390
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_310
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 391
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_311
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 396
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_312
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 393
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_313
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 393
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_314
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 392
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_315
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 388
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_316
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 386
+        width: 19
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_317
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 364
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_307
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 120
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_305
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 123
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_306
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 122
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_301
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 4
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_299
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 301
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_299
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 302
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_300
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 365
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_301
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 423
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_302
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 482
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_302
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 362
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_302
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 304
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_302
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 363
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: FONT_BASIC_303
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 365
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+  spritePackingTag: 
+  userData: 
