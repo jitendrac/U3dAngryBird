@@ -4,7 +4,6 @@ using System.Collections;
 public class SubButtonController : MonoBehaviour {
 
 	public float ScaleValue = 0.1f;
-
 	private string goname;
 	private Vector3 scaleOri,scale2big;
 	private const string KEY_ISAUDIO = "KEY_ISAUDIO";
@@ -31,6 +30,7 @@ public class SubButtonController : MonoBehaviour {
 				PlaySound(titleThemeAudio);
 			}
 		}
+
 	}
 	
 

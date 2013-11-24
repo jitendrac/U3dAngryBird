@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class CreateGameInfoMessage : MonoBehaviour {
+public class GameInfoUI : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
