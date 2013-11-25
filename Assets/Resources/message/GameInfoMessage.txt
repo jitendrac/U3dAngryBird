@@ -1,4 +1,5 @@
-[pic]MENU_ELEMENTS_1_11[pic]
+pic01
+
 Angry Biords
 v1.0_RC1
 
@@ -8,3 +9,132 @@ v1.0_RC1
 有限公司开发与发行
 保留所有权利
 www.rovio.com
+
+pic02
+
+制作人员
+
+- 监制 -
+Niklas Hed
+Mikael Hed
+
+- 制作人 -
+Tuomo Lehtinen
+
+- 首席设计师 -
+Markus Tuppurainen
+
+- 技术总监 -
+Miika Virtanen
+
+- 首席程序员 -
+Caio Sabino
+
+- 程序员 -
+Mika Rahko
+
+- 首席平面设计师 -
+Tuomas Erikoinen
+
+- 平面设计师 -
+Joonas M kil
+
+- 关卡设计师 -
+Jaakko lisalo
+Joonas Mkil
+
+- 品保经理 -
+Dean Bent
+
+- 品保团队 -
+Kari Perho
+Richard GrosJean
+Eve Kuusniemi
+Wayne P. Gardner
+
+pic03
+
+ANGRY BIRDS 初始团队
+
+- 监制 -
+Niklas Hed
+Mikael Hed
+
+- 制作人 -
+Raine M ki
+
+- 首席设计师 -
+Jaakko Lisalo
+
+- 首席程序员 -
+Tuomo Lehtimen
+
+- 程序员 -
+Miika Virtanen
+Antti Laitinen
+Atte J Rvinen
+Mika Rahko
+Marco Rapino
+
+- 首席平面设计师 -
+Tuomas Erikoinen
+
+- 其他的GFX & SFX -
+Joonas M kil
+
+- 关卡设计师 -
+Jaakko Lisalo
+Joonas M kil
+Tuomas Erikoinen
+
+- 技术支持 -
+Miika Virtanen
+
+- 音频和音效设计 -
+Ari Pulkkinen (AriTunes)
+
+- 品保经理 -
+Bean Bent
+
+- 品保团队 -
+Kari Perho
+Richard GrosJean
+
+pic04
+
+其他工作人员
+
+- 市场与公关 -
+Peter Vesterbacka
+Matt Wilson
+Ville Heijari
+
+- 信息技术管理员 -
+Mikko J rivnen
+
+- 调度 -
+lrina Smirnova
+
+pic05
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -20,22 +20,10 @@ namespace Com.Lfd.Common
 				t2d.Apply();
 				return t2d;
 			}
-	
-		public static string ConvertToKanji(int code){
-			string item = code.ToString("x4");
-			byte[] codes = new byte[2];
-			int code1, code2;
-			code1 = Convert.ToInt32(item.Substring(0, 2), 16);
-			code2 = Convert.ToInt32(item.Substring(2), 16);
-			codes[0] = (byte)code2;//必须是小端在前
-			codes[1] = (byte)code1;
-			return Encoding.Unicode.GetString(codes);
-		}
 
-		public static Vector3 ScreenPixReflectWord(float z){
-			Vector3 v2 = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width,Screen.height,z));
-			return v2;
-		}
+			public static Rect GetMiddleScaleRect(Rect rect,float scale){
+				return new Rect(rect.x-scale,rect.y-scale,rect.width+2*scale,rect.height+2*scale);
+			}
 	}
 	
 }
