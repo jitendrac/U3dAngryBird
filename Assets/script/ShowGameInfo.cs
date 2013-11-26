@@ -35,6 +35,7 @@ public class ShowGameInfo : MonoBehaviour {
 	void Start () {
 		t2d_GameInfoHiddeButton = CommonUtils.GetSubTexture(SPR_GameInfoHideButton.textureRect,SPR_GameInfoHideButton.texture);
 		RectGameInfoMessage = new Rect(-Screen.width*0.4f-t2d_GameInfoHiddeButton.width,0,Screen.width*0.4f,Screen.height);
+		//here has a better way to clipping a texture that is using a gui group or using GUI.DrawTextureWithTexCoords method
 		GTEX_GameInfoLeft.texture = CommonUtils.GetSubTexture(SPR_GameInfoLeftBg.textureRect,SPR_GameInfoLeftBg.texture);
 		GTEX_GameInfoRight.texture = CommonUtils.GetSubTexture(SPR_GameInfoRightBg.textureRect,SPR_GameInfoRightBg.texture);
 		guistyleLabel = new GUIStyle();
@@ -53,7 +54,6 @@ public class ShowGameInfo : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		print (RectGameInfoMessage.x);
 		Color tmpColor = GTEX_GameInfoRight.color;
 		Rect tmpGameInfoLeftBgRect = GTEX_GameInfoLeft.pixelInset;
 		if(isShowBackground){

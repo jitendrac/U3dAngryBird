@@ -6,6 +6,7 @@ public class SubButtonController : MonoBehaviour {
 	public float ScaleValue = 0.1f;
 	private string goname;
 	private Vector3 scaleOri,scale2big;
+	private Vector3 scaleOri_audiostop,scale2big_auidostop;
 	private const string KEY_ISAUDIO = "KEY_ISAUDIO";
 	private Transform transformStopAudioButton;
 	private AudioSource titleThemeAudio;
@@ -18,6 +19,8 @@ public class SubButtonController : MonoBehaviour {
 		if(goname == "ButtonConfigAudio"){
 			titleThemeAudio = Camera.main.GetComponent<AudioSource>();
 			transformStopAudioButton =  GameObject.FindGameObjectWithTag("ButtonAudioStop").transform;
+			scaleOri_audiostop = transformStopAudioButton.localScale;
+			scale2big_auidostop = scaleOri_audiostop+new Vector3(ScaleValue,ScaleValue,scaleOri_audiostop.z);
 			if(PlayerPrefs.HasKey(KEY_ISAUDIO)){
 				if(PlayerPrefs.GetInt(KEY_ISAUDIO)==1){
 					titleThemeAudio.Stop();
@@ -36,10 +39,16 @@ public class SubButtonController : MonoBehaviour {
 
 	void OnMouseOver(){
 		gameObject.transform.localScale = scale2big;
+		if(name == "ButtonConfigAudio"){
+			transformStopAudioButton.localScale = scale2big_auidostop;
+		}
 	}
 	
 	void OnMouseExit(){
 		gameObject.transform.localScale = scaleOri;
+		if(name == "ButtonConfigAudio"){
+			transformStopAudioButton.localScale = scaleOri_audiostop;
+		}
 	}
 
 	void OnMouseDown(){
@@ -71,6 +80,15 @@ public class SubButtonController : MonoBehaviour {
 		}
 		if(name == "ButtonHideGameInfo"){
 			ShowGameInfo.isShowBackground = false;
+		}
+		if(name == "ButtonShareFilm"){
+			Application.OpenURL("http://v.youku.com/v_show/id_XMjY4NTg5ODI4.html");
+		}
+		if(name == "ButtonShareTwitter"){
+			Application.OpenURL("http://twitter.angrybirds.com/");
+		}
+		if(name == "ButtonShareFaceBook"){
+			Application.OpenURL("http://facebook.angrybirds.com/");
 		}
 	}
 

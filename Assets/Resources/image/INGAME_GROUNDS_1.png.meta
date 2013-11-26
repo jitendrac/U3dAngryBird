@@ -1,0 +1,108 @@
+fileFormatVersion: 2
+guid: e65ffa02aa1c7fa48bab4aa222450b7f
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: INGAME_GROUNDS_1_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 497
+        width: 334
+        height: 190
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: INGAME_GROUNDS_1_1
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 485
+        width: 482
+        height: 202
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: INGAME_GROUNDS_1_2
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 401
+        width: 482
+        height: 74
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: INGAME_GROUNDS_1_3
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 405
+        width: 271
+        height: 69
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: INGAME_GROUNDS_1_4
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 310
+        width: 590
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: INGAME_GROUNDS_1_5
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 324
+        height: 300
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: INGAME_GROUNDS_1_6
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 80
+        width: 348
+        height: 219
+      alignment: 0
+      pivot: {x: .5, y: .5}
+  spritePackingTag: 
+  userData: 
