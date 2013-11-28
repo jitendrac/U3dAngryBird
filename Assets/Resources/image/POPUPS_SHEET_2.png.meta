@@ -95,5 +95,23 @@ TextureImporter:
         height: 18
       alignment: 0
       pivot: {x: .5, y: .5}
+    - name: POPUPS_SHEET_2_6
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 38
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: POPUPS_SHEET_2_7
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 47
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
   spritePackingTag: 
   userData: 

@@ -4,6 +4,10 @@ using System.Collections.Generic;
 using System.Text;
 namespace Com.Lfd.Common
 {
+
+	public delegate void DoSomeThing();
+	public delegate void MouseDownEventHandler(UnityEngine.Object sender,EventArgs args);
+
 	public class CommonUtils
 	{
 		public static Texture2D GetSubTexture(Rect rect,Texture2D texture){

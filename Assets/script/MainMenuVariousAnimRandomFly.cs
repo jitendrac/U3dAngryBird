@@ -49,14 +49,12 @@ public class MainMenuVariousAnimRandomFly : MonoBehaviour {
 			int minf  =  tmpAnimList.Count < MinNumAnimal ? MinNumAnimal : 0;//0-min
 			int maxf = tmpAnimList.Count > MaxNumAnimal ? MaxNumAnimal : MaxNumAnimal - tmpAnimList.Count;//0-max
 			int num = Random.Range(minf,maxf);
-			print ("random anim num = "+num);
 			for(int i = 0; i< num ; i++){
 				if(Time.deltaTime%2==0){
 					continue;
 				}
 				//random which anim
 				int ra = Random.Range(0,100)%GoAnimals.Length;
-				print ("which:"+ra);
 				GameObject preRgo = GoAnimals[ra];
 				//random direction
 				float rdir = Random.Range(MinV3Position.x,MaxV3Position.x);
@@ -75,7 +73,6 @@ public class MainMenuVariousAnimRandomFly : MonoBehaviour {
 			if(tmpAnimList[i].transform.position.y < MinV3Position.y-2){
 				GameObject.Destroy(tmpAnimList[i],1);
 				tmpAnimList.RemoveAt(i);
-				print ("remove "+i);
 			}
 		}
 

@@ -27,6 +27,6 @@ public class MainMenuUI : MonoBehaviour {
 	}
 
 	void OnMouseDown(){
-
+		Application.LoadLevel(Application.loadedLevel+1);
 	}
 }

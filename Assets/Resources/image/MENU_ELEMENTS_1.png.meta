@@ -153,20 +153,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 579
-        y: 506
-        width: 207
-        height: 78
+        y: 509
+        width: 272
+        height: 75
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: MENU_ELEMENTS_1_13
-      rect:
-        serializedVersion: 2
-        x: 787
-        y: 508
-        width: 60
-        height: 68
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: MENU_ELEMENTS_1_14
       rect:
         serializedVersion: 2

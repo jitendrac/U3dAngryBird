@@ -50,7 +50,7 @@ TextureImporter:
         height: 30
       alignment: 0
       pivot: {x: .5, y: .5}
-    - name: FONT_BASIC_1
+    - name: n4
       rect:
         serializedVersion: 2
         x: 352
@@ -59,7 +59,7 @@ TextureImporter:
         height: 23
       alignment: 0
       pivot: {x: .5, y: .5}
-    - name: FONT_BASIC_2
+    - name: n9
       rect:
         serializedVersion: 2
         x: 433
@@ -284,7 +284,7 @@ TextureImporter:
         height: 18
       alignment: 0
       pivot: {x: .5, y: .5}
-    - name: FONT_BASIC_27
+    - name: n0
       rect:
         serializedVersion: 2
         x: 288
@@ -293,7 +293,7 @@ TextureImporter:
         height: 21
       alignment: 0
       pivot: {x: .5, y: .5}
-    - name: FONT_BASIC_28
+    - name: n1
       rect:
         serializedVersion: 2
         x: 305
@@ -302,7 +302,7 @@ TextureImporter:
         height: 21
       alignment: 0
       pivot: {x: .5, y: .5}
-    - name: FONT_BASIC_29
+    - name: n2
       rect:
         serializedVersion: 2
         x: 320
@@ -311,7 +311,7 @@ TextureImporter:
         height: 21
       alignment: 0
       pivot: {x: .5, y: .5}
-    - name: FONT_BASIC_30
+    - name: n3
       rect:
         serializedVersion: 2
         x: 336
@@ -320,7 +320,7 @@ TextureImporter:
         height: 21
       alignment: 0
       pivot: {x: .5, y: .5}
-    - name: FONT_BASIC_31
+    - name: n6
       rect:
         serializedVersion: 2
         x: 385
@@ -329,7 +329,7 @@ TextureImporter:
         height: 22
       alignment: 0
       pivot: {x: .5, y: .5}
-    - name: FONT_BASIC_32
+    - name: n7
       rect:
         serializedVersion: 2
         x: 401
@@ -338,7 +338,7 @@ TextureImporter:
         height: 21
       alignment: 0
       pivot: {x: .5, y: .5}
-    - name: FONT_BASIC_33
+    - name: n8
       rect:
         serializedVersion: 2
         x: 416
@@ -2390,7 +2390,7 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: .5, y: .5}
-    - name: FONT_BASIC_293
+    - name: n5
       rect:
         serializedVersion: 2
         x: 369
